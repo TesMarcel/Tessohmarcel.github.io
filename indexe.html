@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Simplifié</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+     <h1>Amazon</h1>
+      <input type="text" placeholder="Rechercher sur Amazon...">
+        <nav>
+          <a href="#">Compte</a>
+          <a href="#">Commandes</a>
+          <a href="#" id="cart">Panier (0)</a>
+        </nav>
+        <section class="banner">
+        </header>
+        <img src="influence" alt="">
+          <h2> 
+            Les offres du jour sont un peu spéciales : je te livre à domicile à moitié prix (1000 Franc CFA) ! 
+          </h2>
+        </section>
+
+        <!-- <img src="influe.jpg" alt="description" id="imageUnique">
+        <div class="conteneur">
+        <img src="kit.jpg" class="image-dessous">
+            <p>Texte qui passe au-dessus sans modification</p>
+        </div> -->
+        
+            <br>
+            <h3>Produits populaires</h3>
+            <div class="product-vertical-grid"></div>
+           <div class="product-grid">
+                <!-- 
+
+                  <div class="product-card">
+                  <img src="moulinex.jpg" alt="Produit 1">
+                      <p class="product-name">moulinex</p>
+                      <p class="product-price"> 3000 fr</p>
+                  </div> -->
+                  <div class="product-card">
+                      <img src="moulinex.jpg" alt="Produit 1">
+                      <p class="product-name">moulinex</p>
+                      <p class="product-price">3 000 fr</p>
+                      <button class="add-to-cart">Ajouter au panier</button>
+                  </div>
+                  <div class="product-card">
+                      <img src="camilon.jpg" alt="Produit 2">
+                      <p class="product-name">camilon</p>
+                      <p class="product-price">4000 fr</p>
+                      <button class="add-to-cart">Ajouter au panier</button>
+                  </div>
+                  <div class="product-card">
+                      <img src="perceuse.jpg" alt="Produit 3">
+                      <p class="product-name">perceuse</p>
+                      <p class="product-price">15 000 fr</p>
+                      <button class="add-to-cart">Ajouter au panier</button>
+                  </div>
+                  <div class="product-card">
+                    <img src="sac de couchage.jpg" alt="product 4">
+                    <p class="product-name">sac de couchage</p>
+                    <p class="product-price">30 000 fr</p>
+                    <button class="add-to-cart">Ajouter au panier</button>
+                </div>
+                <div class="product-card">
+                    <img src="playstation.jpg" alt="Produit 5">
+                    <p class="product-name">playstation</p>
+                    <p class="product-price">3 000 000 fr</p>
+                    <button class="add-to-cart">Ajouter au panier</button>
+                </div>
+                <div class="product-card">
+                    <img src="trousse.jpg" alt="Produit 6">
+                    <p class="product-name">trousse</p>
+                    <p class="product-price">50 000 fr</p>
+                    <button class="add-to-cart">Ajouter au panier</button>
+                </div>
+                <div class="product-card">
+                    <img src="baffle.jpg" alt="Produit 7">
+                    <p class="product-name">baffle</p>
+                    <p class="product-price">30 000 fr</p>
+                    <button class="add-to-cart">prend l'autre si</button>
+                </div>
+                <div class="product-card">
+                    <img src="deskop.jpg" alt="Produit 8">
+                    <p class="product-name">deskop</p>
+                    <p class="product-price">150 000 fr</p>
+                    <button class="add-to-cart">Ajouter au panier</button>
+                </div>
+                <div class="product-card">
+                    <img src="haut.jpg" alt="Produit 9">
+                    <p class="product-name">haut</p>
+                    <p class="product-price">3 000 fr</p>
+                    <button class="add-to-cart">c'est méme gratuit</button>
+                </div>
+                <div class="product-card">
+                    <img src="manette.jpg" alt="Produit 10">
+                    <p class="product-name">manette</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="doudou.jpg" alt="Produit 10">
+                    <p class="product-name">doudou</p>
+                    <p class="product-price">2 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="sacs.jpg" alt="Produit 11">
+                    <p class="product-name">sacs</p>
+                    <p class="product-price">3 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="spécial 2.jpg" alt="Produit 12">
+                    <p class="product-name">spécial 2</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="spécial 3.jpg" alt="Produit 13">
+                    <p class="product-name">spéciale 3</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="star.jpg" alt="Produit 14">
+                    <p class="product-name">star</p>
+                    <p class="product-price">2 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="jouet.jpg" alt="Produit 15">
+                    <p class="product-name">jouet</p>
+                    <p class="product-price">2 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="imprimante.jpg" alt="Produit 16">
+                    <p class="product-name">imprimante</p>
+                    <p class="product-price">124 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="serviette.jpg" alt="Produit 17">
+                    <p class="product-name">serviette</p>
+                    <p class="product-price">2 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="fruit moulinex.jpg" alt="Produit 18">
+                    <p class="product-name">fruit moulinex</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="parfun.jpg" alt="Produit 19">
+                    <p class="product-name">parfun</p>
+                    <p class="product-price">5 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="spécial.jpg" alt="Produit 20">
+                    <p class="product-name">spécial</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="bouchon.jpg" alt="Produit 21">
+                    <p class="product-name">bouchon</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="bonbon.jpg" alt="Produit 22">
+                    <p class="product-name">bonbon</p>
+                    <p class="product-price">3 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="nintendo.jpg" alt="Produit 23">
+                    <p class="product-name">nintendo</p>
+                    <p class="product-price">42 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="maquillage.jpg" alt="Produit 24">
+                    <p class="product-name">maquillage</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="matela.jpg" alt="Produit 25">
+                    <p class="product-name">matela</p>
+                    <p class="product-price">45 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="lunette de plage.jpg" alt="Produit 26">
+                    <p class="product-name">lunette</p>
+                    <p class="product-price">2 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="nelko.jpg" alt="Produit 27">
+                    <p class="product-name">nelko</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="plastics.jpg" alt="Produit 28">
+                    <p class="product-name">plastics</p>
+                    <p class="product-price">2 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="cross blanc.jpg" alt="Produit 29">
+                    <p class="product-name">cross blanc</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="cross.jpg" alt="Produit 30">
+                    <p class="product-name">cross</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="imprimante.jpg" alt="Produit 31">
+                    <p class="product-name">imprimante</p>
+                    <p class="product-price">52 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="coussin.jpg" alt="Produit 32">
+                    <p class="product-name">coussin</p>
+                    <p class="product-price">2 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="aspirateur.jpg" alt="Produit 32">
+                    <p class="product-name">aspirateur</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+                <div class="product-card">
+                    <img src="francklin.jpg" alt="Produit 32">
+                    <p class="product-name">francklin</p>
+                    <p class="product-price">12 500 fr</p>
+                    <button class="add-to-cart">ajoute seulement</button>
+                </div>
+
+              </div>
+            </section>
+  <!--  <script>
+        let cartCount = 0;
+    
+        const cart = document.getElementById("cart");
+        const buttons = document.querySelectorAll(".add-to-cart");
+    
+        buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                cartCount++;
+                cart.textContent = `Panier (fr{cartCount})`;
+            });
+        });
+    </script> -->
+
+   <script>
+        let cartCount = 0;
+        const cart = document.getElementById("cart");
+        const buttons = document.querySelectorAll(".add-to-cart");
+        const cartModal = document.getElementById("cart-modal");
+        const closeButton = document.querySelector(".close-button");
+        const cartItemsList = document.getElementById("cart-items");
+    
+        const cartItems = [];
+    
+        buttons.forEach(button => {
+            button.addEventListener("click", (e) => {
+                const productCard = e.target.closest(".product-card");
+                const name = productCard.querySelector(".product-name").textContent;
+                const price = productCard.querySelector(".product-price").textContent;
+    
+                cartItems.push({ name, price });
+                cartCount++;
+                cart.textContent = `Panier (${cartCount})`;
+            });
+        });
+    
+        cart.addEventListener("click", (e) => {
+            e.preventDefault();
+            cartItemsList.innerHTML = "";
+            cartItems.forEach(item => {
+                const li = document.createElement("li");
+                li.textContent = `${item.name} - ${item.price}`;
+                cartItemsList.appendChild(li);
+            });
+            cartModal.classList.remove("hidden");
+        });
+    
+        closeButton.addEventListener("click", () => {
+            cartModal.classList.add("hidden");
+        });
+    
+        // Fermer si clic en dehors de la modale
+        window.addEventListener("click", (e) => {
+            if (e.target === cartModal) {
+                cartModal.classList.add("hidden");
+            }
+        });
+     </script>
+    <div id="cart-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Mon panier</h2>
+            <ul id="cart-items"></ul>
+        </div>
+    </div>
+    
+</body>
+</html>
